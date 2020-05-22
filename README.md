@@ -1,1 +1,1 @@
-# gh-website
+# Garuda Hacks Website
