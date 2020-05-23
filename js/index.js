@@ -45,3 +45,11 @@ $(".prize-expand").click(function () {
         prizeExpanded = !prizeExpanded;
     }
 });
+
+$(document).ready(function () {
+    if (Weglot.getCurrentLang() == "EN") {
+        $("#languageSelector").html("🇬🇧 English");
+    } else {
+        $("#languageSelector").html("🇮🇩 Bahasa Indonesia");
+    }
+});

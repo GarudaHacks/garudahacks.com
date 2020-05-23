@@ -98,6 +98,10 @@
             Weglot.initialize({
                 api_key: "wg_eb8051f11a504cc4d97f0c8c513b885a2",
             });
+
+            function switchLang(language) {
+                Weglot.switchTo(language);
+            }
         </script>
     </head>
     <body>
@@ -122,23 +126,46 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto mr-5">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="#home">Home</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="#activity">Activity</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="#track">Track</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="#prize">Prize</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="#faq">FAQ</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="#sponsor">Sponsor</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="languageSelector"
+                            role="button"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                        >
+                        </a>
+                        <div
+                            class="dropdown-menu"
+                            aria-labelledby="languageSelector"
+                        >
+                            <a class="dropdown-item" onclick="switchLang('ID');"
+                                >🇮🇩 Bahasa Indonesia</a
+                            >
+                            <a class="dropdown-item" onclick="switchLang('EN');"
+                                >🇬🇧 English</a
+                            >
+                        </div>
                     </li>
                 </ul>
             </div>
