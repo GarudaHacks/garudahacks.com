@@ -99,18 +99,6 @@
                 api_key: "wg_eb8051f11a504cc4d97f0c8c513b885a2",
                 hide_switcher: true,
             });
-
-            $(window).on("load", function () {
-                // Handler when all assets (including images) are loaded
-
-                if (Weglot.getCurrentLang() == "id") {
-                    $("#languageSelector").html("🇮🇩 Bahasa Indonesia");
-                    $("#languageSelectorMobile").html("🇮🇩 Bahasa Indonesia");
-                } else {
-                    $("#languageSelector").html("🇬🇧 English");
-                    $("#languageSelectorMobile").html("🇬🇧 English");
-                }
-            });
         </script>
     </head>
     <body>
@@ -977,6 +965,15 @@
             crossorigin="anonymous"
         ></script>
         <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <script>
+            if (Weglot.getCurrentLang() == "id") {
+                $("#languageSelector").html("🇮🇩 Bahasa Indonesia");
+                $("#languageSelectorMobile").html("🇮🇩 Bahasa Indonesia");
+            } else {
+                $("#languageSelector").html("🇬🇧 English");
+                $("#languageSelectorMobile").html("🇬🇧 English");
+            }
+        </script>
         <script src="./js/index.js" defer></script>
     </body>
 </html>
