@@ -46,8 +46,18 @@ $(".prize-expand").click(function () {
     }
 });
 
+function updateLanguageSelector(language) {
+    Weglot.switchTo(language);
+
+    if (Weglot.getCurrentLang() == "en") {
+        $("#languageSelector").html("🇬🇧 English");
+    } else {
+        $("#languageSelector").html("🇮🇩 Bahasa Indonesia");
+    }
+}
+
 $(document).ready(function () {
-    if (Weglot.getCurrentLang() == "EN") {
+    if (Weglot.getCurrentLang() == "en") {
         $("#languageSelector").html("🇬🇧 English");
     } else {
         $("#languageSelector").html("🇮🇩 Bahasa Indonesia");

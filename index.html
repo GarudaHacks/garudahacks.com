@@ -98,10 +98,6 @@
             Weglot.initialize({
                 api_key: "wg_eb8051f11a504cc4d97f0c8c513b885a2",
             });
-
-            function switchLang(language) {
-                Weglot.switchTo(language);
-            }
         </script>
     </head>
     <body>
@@ -159,10 +155,14 @@
                             class="dropdown-menu"
                             aria-labelledby="languageSelector"
                         >
-                            <a class="dropdown-item" onclick="switchLang('ID');"
+                            <a
+                                class="dropdown-item"
+                                onclick="updateLanguageSelector('id');"
                                 >🇮🇩 Bahasa Indonesia</a
                             >
-                            <a class="dropdown-item" onclick="switchLang('EN');"
+                            <a
+                                class="dropdown-item"
+                                onclick="updateLanguageSelector('en');"
                                 >🇬🇧 English</a
                             >
                         </div>
