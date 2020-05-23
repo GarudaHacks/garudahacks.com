@@ -99,6 +99,11 @@
                 api_key: "wg_eb8051f11a504cc4d97f0c8c513b885a2",
                 hide_switcher: true,
             });
+
+            Weglot.on(
+                "languageChanged",
+                updateLanguageSelector(Weglot.getCurrentLang())
+            );
         </script>
     </head>
     <body>
@@ -125,16 +130,10 @@
                     class="dropdown-menu dropdown-menu-center"
                     aria-labelledby="languageSelectorMobile"
                 >
-                    <a
-                        class="dropdown-item"
-                        onclick="updateLanguageSelector('id');"
+                    <a class="dropdown-item" href="#Weglot-id"
                         >🇮🇩 Bahasa Indonesia</a
                     >
-                    <a
-                        class="dropdown-item"
-                        onclick="updateLanguageSelector('en');"
-                        >🇬🇧 English</a
-                    >
+                    <a class="dropdown-item" href="#Weglot-en">🇬🇧 English</a>
                 </div>
             </div>
             <button
@@ -184,14 +183,10 @@
                             class="dropdown-menu dropdown-menu-right"
                             aria-labelledby="languageSelector"
                         >
-                            <a
-                                class="dropdown-item"
-                                onclick="updateLanguageSelector('id');"
+                            <a class="dropdown-item" href="#Weglot-id"
                                 >🇮🇩 Bahasa Indonesia</a
                             >
-                            <a
-                                class="dropdown-item"
-                                onclick="updateLanguageSelector('en');"
+                            <a class="dropdown-item" href="#Weglot-en"
                                 >🇬🇧 English</a
                             >
                         </div>

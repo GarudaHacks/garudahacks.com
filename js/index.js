@@ -47,9 +47,7 @@ $(".prize-expand").click(function () {
 });
 
 function updateLanguageSelector(language) {
-    Weglot.switchTo(language);
-
-    if (Weglot.getCurrentLang() == "id") {
+    if (language == "id") {
         $("#languageSelector").html("🇮🇩 Bahasa Indonesia");
         $("#languageSelectorMobile").html("🇮🇩 Bahasa Indonesia");
     } else {
