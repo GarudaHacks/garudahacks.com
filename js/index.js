@@ -59,3 +59,7 @@ function updateLanguageSelector(language) {
 Weglot.on("languageChanged", function (newLang) {
     updateLanguageSelector(newLang);
 });
+
+Weglot.on("initialized", function () {
+    updateLanguageSelector(Weglot.getCurrentLang());
+});
