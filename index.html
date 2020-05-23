@@ -100,13 +100,17 @@
                 hide_switcher: true,
             });
 
-            if (Weglot.getCurrentLang() == "id") {
-                $("#languageSelector").html("🇮🇩 Bahasa Indonesia");
-                $("#languageSelectorMobile").html("🇮🇩 Bahasa Indonesia");
-            } else {
-                $("#languageSelector").html("🇬🇧 English");
-                $("#languageSelectorMobile").html("🇬🇧 English");
-            }
+            $(window).on("load", function () {
+                // Handler when all assets (including images) are loaded
+
+                if (Weglot.getCurrentLang() == "id") {
+                    $("#languageSelector").html("🇮🇩 Bahasa Indonesia");
+                    $("#languageSelectorMobile").html("🇮🇩 Bahasa Indonesia");
+                } else {
+                    $("#languageSelector").html("🇬🇧 English");
+                    $("#languageSelectorMobile").html("🇬🇧 English");
+                }
+            });
         </script>
     </head>
     <body>
