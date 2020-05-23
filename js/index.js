@@ -57,18 +57,3 @@ function updateLanguageSelector(language) {
         $("#languageSelectorMobile").html("🇬🇧 English");
     }
 }
-
-$(document).ready(function () {
-    Weglot.initialize({
-        api_key: "wg_eb8051f11a504cc4d97f0c8c513b885a2",
-        hide_switcher: true,
-    });
-
-    if (Weglot.getCurrentLang() == "id") {
-        $("#languageSelector").html("🇮🇩 Bahasa Indonesia");
-        $("#languageSelectorMobile").html("🇮🇩 Bahasa Indonesia");
-    } else {
-        $("#languageSelector").html("🇬🇧 English");
-        $("#languageSelectorMobile").html("🇬🇧 English");
-    }
-});
