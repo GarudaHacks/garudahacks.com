@@ -55,3 +55,5 @@ function updateLanguageSelector(language) {
         $("#languageSelectorMobile").html("🇬🇧 English");
     }
 }
+
+Weglot.on("languageChanged", updateLanguageSelector(Weglot.getCurrentLang()));

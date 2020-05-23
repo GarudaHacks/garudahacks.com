@@ -71,8 +71,14 @@ footer a:hover {
 
 .section-hero {
     background-color: var(--baby-blue);
-    padding-top: 200px;
+    padding-top: 125px;
     padding-bottom: 125px;
+}
+
+@media screen and (min-width: 768px) {
+    .section-hero {
+        padding-top: 175px;
+    }
 }
 
 .section-hero .registration-fineprint {
