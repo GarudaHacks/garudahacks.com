@@ -27,6 +27,13 @@ nav li {
     margin-right: 10px;
 }
 
+nav #languageSelectorMobile {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
 h1,
 h2,
 h3,

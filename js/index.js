@@ -51,15 +51,19 @@ function updateLanguageSelector(language) {
 
     if (Weglot.getCurrentLang() == "en") {
         $("#languageSelector").html("🇬🇧 English");
+        $("#languageSelectorMobile").html("🇬🇧 English");
     } else {
         $("#languageSelector").html("🇮🇩 Bahasa Indonesia");
+        $("#languageSelectorMobile").html("🇮🇩 Bahasa Indonesia");
     }
 }
 
 $(document).ready(function () {
     if (Weglot.getCurrentLang() == "en") {
         $("#languageSelector").html("🇬🇧 English");
+        $("#languageSelectorMobile").html("🇬🇧 English");
     } else {
         $("#languageSelector").html("🇮🇩 Bahasa Indonesia");
+        $("#languageSelectorMobile").html("🇮🇩 Bahasa Indonesia");
     }
 });
