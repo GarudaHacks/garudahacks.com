@@ -56,4 +56,6 @@ function updateLanguageSelector(language) {
     }
 }
 
-Weglot.on("languageChanged", updateLanguageSelector(Weglot.getCurrentLang()));
+Weglot.on("languageChanged", function (newLang) {
+    updateLanguageSelector(newLang);
+});
