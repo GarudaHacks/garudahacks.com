@@ -49,21 +49,21 @@ $(".prize-expand").click(function () {
 function updateLanguageSelector(language) {
     Weglot.switchTo(language);
 
-    if (Weglot.getCurrentLang() == "en") {
-        $("#languageSelector").html("🇬🇧 English");
-        $("#languageSelectorMobile").html("🇬🇧 English");
-    } else {
+    if (Weglot.getCurrentLang() == "id") {
         $("#languageSelector").html("🇮🇩 Bahasa Indonesia");
         $("#languageSelectorMobile").html("🇮🇩 Bahasa Indonesia");
+    } else {
+        $("#languageSelector").html("🇬🇧 English");
+        $("#languageSelectorMobile").html("🇬🇧 English");
     }
 }
 
 $(document).ready(function () {
-    if (Weglot.getCurrentLang() == "en") {
-        $("#languageSelector").html("🇬🇧 English");
-        $("#languageSelectorMobile").html("🇬🇧 English");
-    } else {
+    if (Weglot.getCurrentLang() == "id") {
         $("#languageSelector").html("🇮🇩 Bahasa Indonesia");
         $("#languageSelectorMobile").html("🇮🇩 Bahasa Indonesia");
+    } else {
+        $("#languageSelector").html("🇬🇧 English");
+        $("#languageSelectorMobile").html("🇬🇧 English");
     }
 });
