@@ -1,11 +1,15 @@
 :root {
-    --baby-blue: #eafbfe;
+    --garuda-red: #ff5756;
+    --baby-blue: #d1edff;
     --sky-blue: #a9d8fa;
     --dark-blue: #87a9c5;
     --grey: #dfdfdf;
     --grey-1: #f2f5f5;
     --grey-2: #acadad;
+    --pastel-yelow: #ffffeb;
     --text-primary: #4b4b4b;
+    --text-secondary: #ffffeb;
+    --text-tertiary: #b3b292;
 }
 
 body {
@@ -70,7 +74,8 @@ footer a:hover {
 }
 
 .section-hero {
-    background-color: var(--baby-blue);
+    color: var(--text-secondary);
+    background-color: var(--garuda-red);
     padding-top: 125px;
     padding-bottom: 125px;
 }
@@ -99,7 +104,7 @@ footer a:hover {
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.04), 0 2px 6px 0 rgba(0, 0, 0, 0.04),
         0 16px 24px 0 rgba(0, 0, 0, 0.06);
     border: solid 1px var(--grey);
-    color: var(--dark-blue);
+    color: var(--text-tertiary);
     background-color: white;
     padding: 15px 25px;
 }
@@ -199,9 +204,10 @@ footer a:hover {
 }
 
 .section-track {
+    color: var(--text-secondary);
     padding-top: 120px;
     padding-bottom: 120px;
-    background-color: var(--baby-blue);
+    background-color: var(--garuda-red);
 }
 
 .section-track .col-12 {
@@ -225,13 +231,12 @@ footer a:hover {
     border-radius: 5px;
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.04), 0 4px 8px 0 rgba(0, 0, 0, 0.04),
         0 16px 24px 0 rgba(0, 0, 0, 0.04), 0 24px 32px 0 rgba(0, 0, 0, 0.04);
-    border: solid 1px var(--grey);
     height: 100%;
 }
 
 .section-track .item .item-header {
     height: 20px;
-    background-color: var(--grey-2);
+    background-color: #a53939;
 }
 
 .section-track .item .item-body {
@@ -242,6 +247,7 @@ footer a:hover {
     font-family: "Nunito Sans", sans-serif;
     font-weight: 800;
     font-size: 40px;
+    color: var(--text-primary);
 }
 
 .section-track .item .item-desc {
@@ -371,7 +377,8 @@ footer a:hover {
 }
 
 .section-faq {
-    background-color: var(--baby-blue);
+    background-color: var(--garuda-red);
+    color: var(--text-secondary);
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -394,6 +401,7 @@ footer a:hover {
         0 16px 24px 0 rgba(0, 0, 0, 0.04), 0 24px 32px 0 rgba(0, 0, 0, 0.04);
     border: solid 1px #e5e5e5;
     background-color: #ffffff;
+    color: var(--text-primary);
     cursor: pointer;
 }
 
@@ -428,11 +436,11 @@ footer a:hover {
 .section-sponsor-full {
     padding-top: 30px;
     padding-bottom: 120px;
-    background-color: var(--dark-blue);
+    background-color: var(--pastel-yelow);
 }
 
 .section-sponsor-full h1 {
-    color: white;
+    color: var(--text-primary);
     font-size: 48px;
 }
 
@@ -465,7 +473,6 @@ footer a:hover {
 
 .section-sponsor-full .sponsor-info {
     margin-top: 70px;
-    color: white;
     text-align: center;
 }
 
@@ -479,7 +486,8 @@ footer a:hover {
 footer {
     padding-top: 120px;
     padding-bottom: 120px;
-    background-color: var(--grey-1);
+    background-color: var(--text-tertiary);
+    color: var(--text-secondary);
 }
 
 footer img {
