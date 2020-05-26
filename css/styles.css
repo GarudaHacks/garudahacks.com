@@ -344,10 +344,11 @@ footer a:hover {
     width: 100%;
 }
 
+.section-prize .col-lg-4 {
+    padding: 15px;
+}
 .section-prize .item {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
+    height: 100%;
     max-width: 375px;
     padding: 30px;
     border-radius: 5px;
