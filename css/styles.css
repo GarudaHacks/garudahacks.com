@@ -203,6 +203,23 @@ footer a:hover {
     margin-top: auto;
 }
 
+.section-what .mlh-coc {
+    font-size: 16px;
+    text-align: center;
+    color: grey;
+}
+.section-what .btn-coc {
+    margin-top: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.04), 0 2px 6px 0 rgba(0, 0, 0, 0.04),
+        0 16px 24px 0 rgba(0, 0, 0, 0.06);
+    border: solid 1px var(--grey);
+    color: grey;
+    background-color: white;
+    padding: 15px 25px;
+}
+
 .section-track {
     color: var(--text-secondary);
     padding-top: 120px;
