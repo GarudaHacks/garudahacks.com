@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: "Nunito", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: var(--text-primary);
     font-size: 18px;
 }
@@ -25,14 +25,14 @@ nav {
 }
 
 nav li {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 nav #languageSelectorMobile {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: var(--text-primary);
@@ -44,7 +44,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 800;
 }
 
@@ -99,7 +99,7 @@ footer a:hover {
 
 .section-hero .btn-register {
     margin-top: 15px;
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 600;
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.04), 0 2px 6px 0 rgba(0, 0, 0, 0.04),
         0 16px 24px 0 rgba(0, 0, 0, 0.06);
@@ -186,7 +186,7 @@ footer a:hover {
 }
 
 .section-what .item .item-title {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 800;
     font-size: 50px;
 }
@@ -244,7 +244,7 @@ footer a:hover {
 }
 
 .section-track .item .item-title {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 800;
     font-size: 40px;
     color: var(--text-primary);
@@ -356,7 +356,7 @@ footer a:hover {
 }
 
 .section-prize .item .item-title {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 800;
     font-size: 22px;
 }
