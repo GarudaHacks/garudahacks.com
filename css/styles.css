@@ -253,7 +253,7 @@ footer a:hover {
 
 .section-track .item .item-header {
     height: 20px;
-    background-color: #a53939;
+    background-color: #f4d35e;
 }
 
 .section-track .item .item-body {
@@ -511,7 +511,7 @@ footer {
     padding-top: 120px;
     padding-bottom: 120px;
     background-color: var(--text-tertiary);
-    color: var(--text-primary);
+    color: #0d3b66;
 }
 
 footer img {
