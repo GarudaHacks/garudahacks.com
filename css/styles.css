@@ -1,15 +1,15 @@
 :root {
-    --garuda-red: #ff5756;
+    --garuda-red: #ff595e;
     --baby-blue: #d1edff;
     --sky-blue: #a9d8fa;
     --dark-blue: #87a9c5;
     --grey: #dfdfdf;
     --grey-1: #f2f5f5;
     --grey-2: #acadad;
-    --pastel-yelow: #ffffeb;
-    --text-primary: #4b4b4b;
-    --text-secondary: #ffffeb;
-    --text-tertiary: #b3b292;
+    --pastel-yelow: #faf0ca;
+    --text-primary: #122c34;
+    --text-secondary: #ffffff;
+    --text-tertiary: #f4d35e;
 }
 
 body {
@@ -104,7 +104,7 @@ footer a:hover {
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.04), 0 2px 6px 0 rgba(0, 0, 0, 0.04),
         0 16px 24px 0 rgba(0, 0, 0, 0.06);
     border: solid 1px var(--grey);
-    color: grey;
+    color: var(--text-primary);
     background-color: white;
     padding: 15px 25px;
 }
@@ -511,7 +511,7 @@ footer {
     padding-top: 120px;
     padding-bottom: 120px;
     background-color: var(--text-tertiary);
-    color: var(--text-secondary);
+    color: var(--text-primary);
 }
 
 footer img {
