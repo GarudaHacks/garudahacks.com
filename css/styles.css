@@ -295,6 +295,8 @@ footer a:hover {
 }
 
 .section-prize .items-container::after {
+    pointer-events: none;
+
     background-image: linear-gradient(
         top,
         rgba(255, 255, 255, 0) 0%,
