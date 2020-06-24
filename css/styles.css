@@ -13,6 +13,10 @@
     --text-tertiary: #f4d35e;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
@@ -465,6 +469,13 @@ footer a:hover {
 
 .section-prize .item .item-body {
     font-size: 14px;
+}
+
+.section-prize .prize-many {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
 }
 
 .section-faq {
