@@ -102,6 +102,16 @@ footer a:hover {
     color: var(--text-secondary);
 }
 
+.section-hero .register-mentor {
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+.section-hero .register-mentor a {
+    color: white;
+    text-decoration: underline;
+}
+
 .section-hero .registration-fineprint {
     padding-top: 10px;
     font-size: 14px;
