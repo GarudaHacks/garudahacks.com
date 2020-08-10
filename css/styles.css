@@ -142,6 +142,15 @@ footer a:hover {
     padding-bottom: 25px;
 }
 
+.title-sponsor-container {
+    width: 100%;
+}
+.title-sponsor {
+    height: 90px;
+    max-width: 80%;
+    margin-bottom: 25px;
+}
+
 .section-sponsor .sponsor-text {
     font-weight: 700;
     font-size: 25px;
@@ -564,7 +573,7 @@ footer a:hover {
 }
 
 .section-sponsor-full .items-container {
-    margin: 2rem 0;
+    margin: 1rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -575,6 +584,14 @@ footer a:hover {
     max-height: 5rem;
     max-width: 40%;
     margin: 1rem 0.5rem;
+}
+
+.section-sponsor-full img.title {
+    margin: 1rem 0;
+    max-height: 10rem;
+    max-width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 .section-sponsor-full .items-container.league-partner img {
