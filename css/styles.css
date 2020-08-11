@@ -142,11 +142,6 @@ footer a:hover {
     padding-bottom: 25px;
 }
 
-.title-sponsor {
-    width: 90%;
-    margin-bottom: 25px;
-}
-
 .section-sponsor .sponsor-text {
     font-weight: 700;
     font-size: 25px;
@@ -156,16 +151,12 @@ footer a:hover {
     padding-bottom: 25px;
 }
 
-@media screen and (min-width: 540px) {
-    /* half-width cells for larger devices */
-    .title-sponsor {
-        width: auto;
-        max-width: 350px;
-        margin-bottom: 25px;
-    }
+.title-sponsor {
+    width: 100%;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
-
-/* default full-width cells */
 
 .section-sponsor .carousel-cell {
     width: 100%;
@@ -614,20 +605,7 @@ footer a:hover {
 }
 
 .section-sponsor-full img.title {
-    margin: 1rem 0;
-    max-width: 100%;
-    padding-left: 35px;
-    padding-right: 35px;
-}
-
-@media screen and (min-width: 960px) {
-    /* half-width cells for larger devices */
-    .section-sponsor-full img.title {
-        margin: 1rem 0;
-        max-width: 45%;
-        padding-left: 35px;
-        padding-right: 35px;
-    }
+    width: 100%;
 }
 
 .section-sponsor-full .items-container.league-partner img {
