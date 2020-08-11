@@ -2,7 +2,7 @@ var elem = document.querySelector(".main-carousel");
 var flkty = new Flickity(elem, {
     // options
     contain: true,
-    autoPlay: true,
+    autoPlay: false,
     pageDots: false,
     wrapAround: true,
     prevNextButtons: false,
@@ -15,13 +15,9 @@ var flkty = new Flickity(".main-carousel", {
     // options
 });
 
-flkty.on("staticClick", function (event, pointer, cellElement, cellIndex) {
-    flkty.playPlayer();
-});
+flkty.on("staticClick", function (event, pointer, cellElement, cellIndex) {});
 
-flkty.on("dragEnd", function (event, pointer, cellElement, cellIndex) {
-    flkty.playPlayer();
-});
+flkty.on("dragEnd", function (event, pointer, cellElement, cellIndex) {});
 
 var prizeExpanded = false;
 

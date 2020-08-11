@@ -146,8 +146,7 @@ footer a:hover {
     width: 100%;
 }
 .title-sponsor {
-    height: 90px;
-    max-width: 80%;
+    width: 90%;
     margin-bottom: 25px;
 }
 
@@ -158,6 +157,16 @@ footer a:hover {
 
 .section-sponsor .main-carousel {
     padding-bottom: 25px;
+}
+
+@media screen and (min-width: 540px) {
+    /* half-width cells for larger devices */
+    .title-sponsor {
+        height: 90px;
+        width: auto;
+        max-width: 80%;
+        margin-bottom: 25px;
+    }
 }
 
 /* default full-width cells */
@@ -184,6 +193,8 @@ footer a:hover {
     filter: blur(0px);
     transition-duration: 0.25s;
     transition-timing-function: ease;
+    max-height: 100%;
+    height: auto;
 }
 
 @media screen and (min-width: 960px) {
@@ -301,6 +312,26 @@ footer a:hover {
     max-height: 5rem;
     max-width: 150px;
     margin: 1rem 0.5rem;
+}
+
+.section-what .hiring-container-blibli {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.section-what .hiring-container-blibli img {
+    max-width: 100%;
+    margin: 1rem 0.5rem;
+}
+
+@media screen and (min-width: 540px) {
+    .section-what .hiring-container-blibli img {
+        max-width: 350px;
+        margin: 1rem 0.5rem;
+    }
 }
 
 .section-what .judges-title {
@@ -588,6 +619,23 @@ footer a:hover {
 
 .section-sponsor-full img.title {
     margin: 1rem 0;
+    max-width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+@media screen and (min-width: 960px) {
+    /* half-width cells for larger devices */
+    .section-sponsor-full img.title {
+        margin: 1rem 0;
+        max-width: 45%;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+
+.section-sponsor-full img.title {
+    margin: 1rem 0;
     max-height: 10rem;
     max-width: 100%;
     padding-left: 35px;
@@ -646,4 +694,10 @@ footer .col-lg-4 {
 footer .footer-text {
     display: grid;
     align-items: center;
+}
+
+footer .powered-img {
+    padding-left: 5px;
+    display: inline-block;
+    height: 30px;
 }
